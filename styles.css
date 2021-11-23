@@ -1,46 +1,131 @@
-.logotopo {
+.logodotopo {
     width: 100%;
     border: black 2px solid;
-    border-radius: 10px;
+    border-radius: 900px;
     box-shadow: black 2px 2px 5px;
-    margin-bottom: 50px;
-
-}
-
+    margin-bottom: 150px;
+    margin-top: 200px;
+    }
 #navegação {
     background-color: rgb(85, 95, 85);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     margin-left: 20px;
     margin-right: 20px;
     border: black;
     border-radius: 2px;
     box-shadow: black 2px solid;
     }
-
 a {
     text-decoration: unset;
     color: white;
     font-family: cursive;
+    font-size: 100px;
 }
-
 .imgindex {
     width: 30%;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid;
+    border-radius: 900px;
     }
-#apresentação {
-
-    font-size: 30px;
+#detalhesairleash {
     margin-bottom: 600px;
     display: flex;
     margin-left: 25px;
+    justify-content: space-between;
+    justify-content: center;    
 }
+.detalhesairleash{
+    float: left;
+    margin: auto;
+}
+
 body {
     background-color: rgb(90, 105, 90);
+    margin-left: 200px;
+    margin-right: 200px;
+    }
+.redes {
+     height: 100px;
+}
+.titulo { 
+    text-align: center;
+    font-size: 150px;
+}
+#titulosemdestaque {
+   text-align: center;
+   font-size: 80px;
+
+}
+#produtos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 250px;
+}
+.textodoindex {
+    font-size: 250px;
+}
+
+p {
+    font-size: 100px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+
+}
+h3 {
+    font-size: 100px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+.p1 {
+    height: auto;
+    width: 1000px;
+    border: white 5px solid;
+    border-radius: 400px;
+}
+.c1 {
+    height: auto;
+    width: 1000px;
+    border: white 1px solid;
+    border-radius: 300px;
+}
+.g1 {
+    height: auto;
+    width: 1000px;
+    border: white 1px solid;
+    border-radius: 300px;
+}
+
+.descriçãocoleira {
+    font-size: 100px; 
+}
+#institucional{
+    display: flex;
+    margin-bottom: 500px;
+}
+.imageminstitucional{
+    margin-right: 50px;
+    border: 5px solid;
+    border-radius: 100px;
+}
+.textodoinstitucional {
+    text-align: center;
+}
+
+#rodapé {
+    font-size: 100px;
+    text-align: center;
+    color: white;
 }
 
 .redes {
-    
-    height: 100px;
-
+    height: auto;
+    width: 100px;
 }
