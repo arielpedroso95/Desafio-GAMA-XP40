@@ -1,3 +1,4 @@
+/* Topo da página */
 .logodotopo {
     width: 100%;
     border: black 2px solid;
@@ -6,6 +7,8 @@
     margin-bottom: 150px;
     margin-top: 200px;
     }
+
+/* Barra de navegação */
 #navegação {
     background-color: rgb(85, 95, 85);
     display: flex;
@@ -23,6 +26,12 @@ a {
     font-family: cursive;
     font-size: 100px;
 }
+
+/* Styles da página do index */
+#apresentação {
+    display: flex;
+}
+
 .imgindex {
     width: 30%;
     margin-left: 200px;
@@ -30,26 +39,44 @@ a {
     border: 1px solid;
     border-radius: 900px;
     }
+    .textodoindex {
+        max-width: 900px;
+        font-size: 100px;
+        margin: 0 auto;
+        margin-top: 600px;
+        align-items: center;
+    }
+/* Styles da página do produto Airleash */
 #detalhesairleash {
-    margin-bottom: 600px;
+    align-items: center;
+    margin-bottom: 400px;
     display: flex;
-    margin-left: 25px;
-    justify-content: space-between;
-    justify-content: center;    
+    margin-left: 100px;
+    font-size: 200px;
+    color: white;   
 }
 .detalhesairleash{
-    float: left;
-    margin: auto;
-}
+    margin-left: 200px;
+    border-radius: 30px;
+    height: 1000px;
+    width: 1000px;
+    display: flexbox 
+ }
 
+ #container {
+     display: grid;
+     grid-template-columns: 30% 30% 30%;
+     grid-template-rows: 1150px 1000px;
+ }
+
+
+/* Styles de todas páginas */
 body {
     background-color: rgb(90, 105, 90);
     margin-left: 200px;
     margin-right: 200px;
     }
-.redes {
-     height: 100px;
-}
+
 .titulo { 
     text-align: center;
     font-size: 150px;
@@ -57,6 +84,7 @@ body {
 #titulosemdestaque {
    text-align: center;
    font-size: 80px;
+   color: white;
 
 }
 #produtos {
@@ -67,9 +95,6 @@ body {
     margin-right: 250px;
     margin-bottom: 250px;
 }
-.textodoindex {
-    font-size: 250px;
-}
 
 p {
     font-size: 100px;
@@ -78,24 +103,29 @@ p {
     text-align: center;
 
 }
+
+/* Styles de todas páginas */
 h3 {
     font-size: 100px;
     font-family: cursive;
     color: white;
     text-align: center;
 }
+/* Styles de todas páginas */
 .p1 {
     height: auto;
     width: 1000px;
     border: white 5px solid;
     border-radius: 400px;
 }
+/* Styles de todas páginas */
 .c1 {
     height: auto;
     width: 1000px;
     border: white 1px solid;
     border-radius: 300px;
 }
+/* Styles de todas páginas */
 .g1 {
     height: auto;
     width: 1000px;
@@ -106,6 +136,8 @@ h3 {
 .descriçãocoleira {
     font-size: 100px; 
 }
+
+/* Styles da pagina institucional */
 #institucional{
     display: flex;
     margin-bottom: 500px;
@@ -119,13 +151,15 @@ h3 {
     text-align: center;
 }
 
+/* Styles do rodapé */
+
+
 #rodapé {
-    font-size: 100px;
+        font-size: 100px;
     text-align: center;
     color: white;
 }
 
 .redes {
-    height: auto;
-    width: 100px;
+    max-width: 100px;
 }
