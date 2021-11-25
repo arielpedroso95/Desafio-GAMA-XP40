@@ -1,7 +1,6 @@
 /* Topo e barra de navegação de todas as páginas */
 .logodotopo {
     width: 100%;
-    margin-left: 20px;
     border: black 2px solid;
     border-radius: 900px;
     box-shadow: black 2px 2px 5px;
@@ -13,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-    margin-left: 20px;
     border: black;
     border-radius: 2px;
     box-shadow: black 2px solid;
@@ -48,8 +46,7 @@ a {
     /* Styles de todas páginas */
 body {
     background-color: rgb(90, 105, 90);
-    margin-left: 20px;
-    margin-right: 50px;
+    
     }
 .titulo { 
     text-align: center;
@@ -62,27 +59,13 @@ body {
    color: white;
 }
 /* Styles da página do produto Airleash */
-#detalhesairleash {
-    align-items: center;
-    margin-bottom: 400px;
-    display: flex;
-    margin-left: 100px;
-    font-size: 200px;
-    color: white;   
-}
-.detalhesairleash{
-    margin-left: 200px;
-    border-radius: 30px;
-    height: 1000px;
-    width: 1000px;
-    display: flexbox 
- }
-
  #container {
      display: grid;
-     grid-template-columns: 30% 30% 30%;
-     grid-template-rows: 1150px 1000px;
- }
+     grid-template-columns: 1% 1% 1%;
+     grid-template-rows: 90px;
+     justify-content: space-between;
+     margin-right: 25px;
+     }
 #produtos {
     display: flex;
     justify-content: space-between;
@@ -90,7 +73,20 @@ body {
     margin-right: 50px;
 }
 
-
+#detalhesairleash {
+    align-items: center;
+    margin-bottom: 200px;
+    display: flex;
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;   
+}
+.detalhesairleash{
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    display: flexbox 
+ }
 /* Styles de todas páginas */
 h3 {
     font-size: 12px;
@@ -166,8 +162,6 @@ h3 {
 }
 
 /* Styles do rodapé */
-
-
 #rodapé {
     font-size: 15px;
     text-align: center;
@@ -178,3 +172,317 @@ h3 {
 .redes {
     max-width: 25px;
 }
+/* Reponsividade */
+@media only screen and (max-width: 375px) {
+
+
+    .logodotopo {
+        justify-content: center;
+        height: 100%;
+        
+    }
+    #navegação {
+        justify-content: space-between;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        
+    }
+    #apresentação {
+        height: 300px;
+        width: 300px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        margin-top: 100px;
+    }
+    .imgindex {
+        height: 150px;
+        width: 150px;
+    }
+    .textodoindex {
+        height: 250px;
+        width: 200px;
+        font-size: 25px;
+    }
+    /* Reponsividade da pag guias */
+    
+    #titulosemdestaque {
+        font-size: 15px;
+        margin-left: 25px;
+    }    
+    #produtos {
+        height: 100%;
+        margin-bottom: 25px;           
+    }  
+
+    /* Reponsividade da pag Institucional */
+    .textodoinstitucional {
+        font-size: 10px;
+        color: white;
+    }
+    /* Reponsividade da pag Airleash */
+
+    #titulosemdestaque {
+        font-size: 12px;
+    }
+
+    #container {
+        margin-bottom: 50px;
+    }
+        
+    .detalhesairleash {
+        font-size: 10px;
+    }
+
+    
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .logodotopo {
+        justify-content: center;
+        height: 100%;
+        
+    }
+    #navegação {
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    a {
+        font-size: 35px;
+    }
+    #apresentação {
+        
+        margin-bottom: 300px;
+        margin-left: 5px;
+        margin-top: 100px;
+       
+    }
+    .imgindex {
+        height: 500px;
+        width: 500px;
+        margin-right: 50px;
+    }
+    .textodoindex {
+        font-size: 90px;
+        color: white;
+    }
+    #rodapé {
+        font-size: 50px;
+    }
+    .redes {
+        max-width: 50px;       
+            }
+
+    /* Reponsividade da pag guias */
+
+    .titulo {
+        font-size: 65px;
+    }
+    
+    h2 {
+        font-size: 55px;
+    }
+
+    .descriçãoguia {
+        font-size:40px ;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+    .p1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    #produtos {
+        margin-left: 100px;
+        margin-right: 50px;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    /* Reponsividade da pag Coleira */
+
+    .c1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .descriçãocoleira {
+        font-size: 40px;
+    }
+
+    .g1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .descriçãodiversos {
+        font-size: 40px;
+    }
+ 
+    /* Reponsividade da pag Institucional */
+    .textodoinstitucional {
+        font-size: 30px;
+        color: white;
+    }
+
+    .imageminstitucional {
+        height: 600px;
+        width: 600px;
+    }
+
+    /* Reponsividade da pag Airleash */
+
+    #titulosemdestaque {
+        font-size: 20px;
+    }
+
+    #container {
+       margin-right: 25px;
+       
+       
+    }
+        
+    .detalhesairleash {
+        height: 80px;
+        width: 80px;
+        margin-bottom: 125px;       
+    }
+    ul {
+        margin-left: 150px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .logodotopo {
+        justify-content: center;
+        height: 100%;
+        
+    }
+    #navegação {
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    a {
+        font-size: 35px;
+    }
+    #apresentação {
+        
+        margin-bottom: 300px;
+        margin-left: 5px;
+        margin-top: 100px;
+       
+    }
+    .imgindex {
+        height: 500px;
+        width: 500px;
+        margin-right: 50px;
+    }
+    .textodoindex {
+        font-size: 90px;
+        color: white;
+    }
+    #rodapé {
+        font-size: 50px;
+    }
+    .redes {
+        max-width: 50px;       
+            }
+
+    /* Reponsividade da pag guias */
+
+    .titulo {
+        font-size: 65px;
+    }
+    
+    h2 {
+        font-size: 55px;
+    }
+
+    .descriçãoguia {
+        font-size:40px ;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+    .p1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    #produtos {
+        margin-left: 100px;
+        margin-right: 50px;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    /* Reponsividade da pag Coleira */
+
+    .c1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .descriçãocoleira {
+        font-size: 40px;
+    }
+
+    .g1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .descriçãodiversos {
+        font-size: 40px;
+    }
+ 
+    /* Reponsividade da pag Institucional */
+    .textodoinstitucional {
+        font-size: 30px;
+        color: white;
+    }
+
+    .imageminstitucional {
+        height: 600px;
+        width: 600px;
+    }
+
+    /* Reponsividade da pag Airleash */
+
+    #titulosemdestaque {
+        font-size: 20px;
+    }
+
+    #container {
+       margin-right: 25px;
+       
+       
+    }
+        
+    .detalhesairleash {
+        height: 80px;
+        width: 80px;
+        margin-bottom: 125px;       
+    }
+    ul {
+        margin-left: 150px;
+        font-size: 30px;
+    }
+
+
+}
+
+    
