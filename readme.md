@@ -1,4 +1,4 @@
-<h1 align="center">Projeto Site do Petshop</h1>
+<h1 align="center">Projeto Site de Petshop</h1>
 
 
 <p align="center">Criação de um site e-commerce para o desafio da 3°Semana da GAMA XP 40, o site possui navegação por categorias e detalhes dos produtos.</p>
